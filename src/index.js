@@ -7,9 +7,9 @@ import { Home } from './templates/Home';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <CounterContextProvider>
-      <Home />
-    </CounterContextProvider>
-  </React.StrictMode>,
+  //   <React.StrictMode>
+  <CounterContextProvider>
+    <Home />
+  </CounterContextProvider>,
+  //   </React.StrictMode>,
 );
